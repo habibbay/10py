@@ -311,7 +311,7 @@ class LINE:
 
       prof = self.getProfile()
 
-      print("One Piece BOT")
+      print("Bieb Ciluk Team Bot")
       print("mid -> " + prof.mid)
       print("name -> " + prof.displayName)
       print("authToken -> " + self.authToken)
