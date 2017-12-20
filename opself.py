@@ -6,51 +6,51 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE() # Akun Utama
-cl.login(qr=True)
+cl.login(token="EnP8EwjTZPC1nnGx6ka1.YylCPzDS73FFeZw2umDL4q.zpVAOWL0MesNRyP7cqlKSjaAwcI3T/Kai/5zIrUestI=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Bot 1
-ki.login(qr=True)
+ki.login(token="EnL6uqkdL5vGAzJe9fAa.zQSghcJqOX9okB7XRV/hoG.wXIj6haPPx0mZIduCaoBT2ZOKLHgKtI7qzCSgzK14J4=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #Bot 2
-kk.login(qr=True)
+kk.login(token="EnwFXavA9wzb59Rigcm7.nsfhzJDwpznnILRB7xbZnW.9Z2C2vJGLc2RlozFBQ2NR6/Tee7yvi3PRQj+SDJ0PKM=")
 kk.loginResult()
 
 kc = LINETCR.LINE() #Bot 3
-kc.login(qr=True)
+kc.login(token="EnCugJDE9UmG3Tx4cxe5.Jzp7mX9sKs1Ksb+V4dt+Tq.M/5FQ2BVRLci21F+5kJJcuklPsbljJEiGNeExLJ2rIc=")
 kc.loginResult()
 
 ks = LINETCR.LINE() #Bot 4
-ks.login(qr=True)
+ks.login(token="En6hxphShQ6m3GcTGMX6.Szf5xl0Y9zJqZvEXuVXrrG.LlchfxWIHncARPGG9sH6LC/wrY94oo8jZMtOZsG6JM0=")
 ks.loginResult()
 
 ka = LINETCR.LINE() #Bot 5
-ka.login(qr=True)
+ka.login(token="EnDT9Iq2CZUa84QGktAf.OEkOkzOgvZEfjTXt6IvAlW.K85ozCox1Ts7uL4q+otPc0aF7JffwnVJX9555ZkRCZQ=")
 ka.loginResult()
 
 kb = LINETCR.LINE() #Bot 6
-kb.login(qr=True)
+kb.login(token="EnIy5lGAFyJ9n5gdbNWe.CBkLPIwBAB+jIkfPjHHZBG.K5kaCZAaGZemv+yIDGO6WREJ77+ntZD+x3wgL1N6NxE=")
 kb.loginResult()
 
 ko = LINETCR.LINE() #Bot 7
-ko.login(qr=True)
+ko.login((token="Enbf9LQcNDSbdDOjeLJ7.iKT6G/SOx222zSniZvVdjW.9SI/YtphMixDw8h7fyib/ibHcyz4UR6i9RCr8kBkLKU=")
 ko.loginResult()
 
 ke = LINETCR.LINE() #Bot 8
-ke.login(qr=True)
+ke.login(token="EnwFXavA9wzb59Rigcm7.nsfhzJDwpznnILRB7xbZnW.9Z2C2vJGLc2RlozFBQ2NR6/Tee7yvi3PRQj+SDJ0PKM=")
 ke.loginResult()
 
 ku = LINETCR.LINE() #Bot 9
-ku.login(qr=True)
+ku.login(token="EnL6uqkdL5vGAzJe9fAa.zQSghcJqOX9okB7XRV/hoG.wXIj6haPPx0mZIduCaoBT2ZOKLHgKtI7qzCSgzK14J4=")
 ku.loginResult()
 
-print "login success plak"
+print "login success....!!!  by Bieb Ciluk id line: ntan2801  "
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" ^[Bot One Piece]^
-OWNER ™Koplaxs™"""
+helpMessage =""" ^[Ketik : Admin menu]^
+CREATOR BOT : ™Bieb Ciluk™\nhttp://line.me/ti/p/~ntan2801"""
 
 Setgroup =""" 
     [Admin Menu]
@@ -64,7 +64,7 @@ Setgroup ="""
 ||-[Cancel Invited]
 ||- Cancel all
 ===================
-   		BOT PROTECT
+  [CILUK BOT PROTECT]
 ==================="""
 KAC=[cl,ki,kk,kc,ks,ka,kb,ko,ke,ku]
 DEF=[ka,kb,ko,ke,ku]
@@ -80,8 +80,8 @@ Hmid = ke.getProfile().mid
 Imid = ku.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]
-admin=["ued156c86ffa56024c0acba16f7889e6d","u457cf410aa13c3d8b6cf2f9ddf5cdb20","u5ddba0b0366f32d148979ef879edf1f0"]
-owner=["ued156c86ffa56024c0acba16f7889e6d"]
+admin=["u4843bca56f19fd29c1ad040f7fdd80dc"]
+owner=["u4843bca56f19fd29c1ad040f7fdd80dc"]
 wait = {
     'contact':False,
     'autoJoin':True,
